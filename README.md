@@ -1,14 +1,17 @@
-# simulation.py
+# Republic AI Economic Simulation
 
-import random
+This project explores decentralized compute on Republic testnet.
 
-print("Republic AI Economic Simulation Started")
+## Overview
 
-agents = 5
-market_price = 100
+A simple agent-based economic simulation where agents randomly decide to buy, sell, or hold.
 
-for i in range(agents):
-    decision = random.choice(["buy", "sell", "hold"])
-    print(f"Agent {i+1} decision: {decision}")
+## Purpose
 
-print("Simulation completed.")
+- Test distributed inference
+- Measure compute performance
+- Explore AI economic modeling on-chain
+
+## Status
+
+Initial simulation logic implemented.
